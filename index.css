@@ -19,7 +19,7 @@ div#box{
 	background: red;
 	text-align:center;
 	transition: 1s transform;
-	font:50px/300px "arial";
+	font:20px/300px "arial";
 }
 div#box div{
 	color:#fff;
