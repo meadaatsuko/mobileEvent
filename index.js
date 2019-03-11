@@ -13,6 +13,6 @@ addEvent(window,"load",function (event) {
 	addEvent(window,"orientationchange",function (event) {
 		// body...
 		box.style.transform = "rotate(" + window.orientation + "deg)";
-		text.style.transform = "rotate(" + (-window.orientation) + "deg)";
+		text.style.transform = "rotate(" + (window.orientation) + "deg)";
 	});
 });
