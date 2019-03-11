@@ -21,6 +21,6 @@ div#box{
 	transition: 1s transform;
 	font:50px/300px "arial";
 }
-div#box span{
+div#box div{
 	color:#fff;
 }
