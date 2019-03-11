@@ -9,8 +9,10 @@ function addEvent(element,type,method) {
 addEvent(window,"load",function (event) {
 	// body...
 	var box = document.querySelector("#box");
+	var text = document.querySelector("#text");
 	addEvent(window,"orientationchange",function (event) {
 		// body...
-		box.style.transform = "rotate(" + (-window.orientation) + "deg)";
+		box.style.transform = "rotate(" + window.orientation + "deg)";
+		text.style.transform = "rotate(" + (-window.orientation) + "deg)";
 	});
 });
