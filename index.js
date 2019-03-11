@@ -8,7 +8,7 @@ function addEvent(element,type,method) {
 }
 function deviceOrientationEvent(event){
 	var text = document.querySelector("#text");
-	text.innerHTML = "alpha:" + event.alpha + ".";
+	text.innerHTML = "alpha:" + event.alpha.toFixed(2) + ".";
 }
 addEvent(window,"load",function (event) {
 	// body...
