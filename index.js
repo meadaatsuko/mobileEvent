@@ -10,7 +10,7 @@ function deviceOrientationEvent(event){
 	var text = document.querySelector("#textOut");
 	var arrow = document.querySelector("#arrow");
 	text.innerHTML = "alpha:" + event.alpha.toFixed(2) + ".";
-	arrow.style.transform = "rotate(" + event.alpha.toFixer(0) + ")"; 
+	arrow.style.transform = "rotate(" + event.alpha.toFixed(0) + ")"; 
 }
 addEvent(window,"load",function (event) {
 	// body...
