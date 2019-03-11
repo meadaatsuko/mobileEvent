@@ -11,6 +11,6 @@ addEvent(window,"load",function (event) {
 	var box = document.querySelector("#box");
 	addEvent(window,"orientationchange",function (event) {
 		// body...
-		box.style.transform = "rotate(" + window.orientation + "deg)";
+		box.style.transform = "rotate(" + (-window.orientation) + "deg)";
 	});
 });
