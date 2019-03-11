@@ -17,5 +17,6 @@ div#box{
 	bottom: 0px;
 	margin: auto;
 	background: red;
+	text-align:center;
 	transition: 1s transform;
 }
