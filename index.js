@@ -8,7 +8,7 @@ function addEvent(element,type,method) {
 }
 function deviceOrientationEvent(event){
 	var text = document.querySelector("#textOut");
-	var arrow = document.querySelecotr(#arrow);
+	var arrow = document.querySelecotr("#arrow");
 	text.innerHTML = "alpha:" + event.alpha.toFixed(2) + ".";
 	arrow.style.transform = "rotate(" + event.alpha.toFixer(0) + ")"; 
 }
