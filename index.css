@@ -20,5 +20,7 @@ div#box{
 	text-align:center;
 	transition: 1s transform;
 	font:50px/300px "arial";
+}
+div#box span{
 	color:#fff;
 }
