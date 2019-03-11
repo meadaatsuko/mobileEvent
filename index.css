@@ -19,8 +19,16 @@ div#box{
 	background: red;
 	text-align:center;
 	transition: 1s transform;
-	font:20px/300px "arial";
+	font:20px/20px "arial";
 }
 div#box div{
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	margin:auto;
 	color:#fff;
 }
