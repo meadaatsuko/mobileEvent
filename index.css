@@ -21,7 +21,7 @@ div#box{
 	transition: 1s transform;
 	font:20px/20px "arial";
 }
-div#text{
+div#arrow{
 	width:20px;
 	height:100px;
 	position:absolute;
