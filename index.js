@@ -15,7 +15,7 @@ function deviceOrientationEvent(event){
 addEvent(window,"load",function (event) {
 	// body...
 	var box = document.querySelector("#box");
-	var text = document.querySelector("#text");
+	var text = document.querySelector("#textOut");
 	addEvent(window,"orientationchange",function (event) {
 		// body...
 		box.style.transform = "rotate(" + window.orientation + "deg)";
